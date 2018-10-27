@@ -1,0 +1,135 @@
+body, html {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Arial' , 'Helvetica', sans-serif;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: 1.05%
+
+    color: #444444
+    background-color: #efefef;
+    
+    margin: 0 auto;
+    max-width: 760px;
+
+}
+    
+   h1, h2 {
+       color: rgb(142, 23, 221);
+   } 
+header {
+    text-align: center;
+    padding: 12px 24 px;
+    background-color: rgb(252, 255, 213);
+    margin-bottom: 24px;
+
+}
+ header  h1, header h2 {
+     margin: 0;
+
+
+ }
+header.article-header {
+    text-align: left;
+    background-color: blue;
+    color: #e0e2e3;
+}
+header.article-header h2 {
+    color: rgb(175, 104, 166);
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+nav ul a  {
+    color: cornflowerblue;
+    text-decoration: none;
+    
+}
+nav ul li {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(8, 80, 80);
+    transition: all 0.3s ease-out;
+    
+}
+nav ul li:hover {
+    background-color: whitesmoke;
+    font-size: 24px;
+
+}
+nav ul a:first-child li{
+    background-color: aqua;
+    font-size: 20px;
+
+}
+nav ul a:nth-of-type(odd) li {
+    color:navy
+
+}
+*:focus {
+    outline: purple;
+
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+main {
+    float: right;
+    width: 70%;
+}
+    /* 
+            .big-purple-box {
+                height: 100px;
+                width: 100px;
+                background-color: red
+            }
+            .small-box {
+        height: 50px;
+        width: 50px;
+        background-color: royalblue
+    }
+    .other-box {
+        height: 100px;
+        width: 100px;
+        background-color:plum
+    }
+    .other-box.small {
+        height: 75px;
+        width: 75px;
+     }
+         .btn {
+         border: 0;
+         border-radius: 4px;
+         padding: 12px;
+         min-width: 96px;
+         text-align: center;
+         font-size: 1.5cm;
+         background-color: #EEEEEE;
+         color: #444444;
+         margin: 0 12px 0 0; 
+         margin-right: 12px;
+         margin-top: 0;
+         margin-bottom: 0;
+         margin-left: 0;
+
+        border: 5px dashed black;
+    }
+    .btn.btn-success {
+        background-color: green;
+        color: white;
+        border-color: blue
+    }
+    .btn.btn-danger {
+        background-color: red;
+        color: white;
+        border-style: double;
+        margin-top: -10px;
+    } */
+         */
